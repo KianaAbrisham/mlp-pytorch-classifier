@@ -55,6 +55,10 @@ The notebook finds the repository from either its root folder or `notebooks/`.
 The saved outputs come from CPU execution with the included data; see
 [validation](docs/VALIDATION.md) for the checks and limits.
 
+## Development context
+
+The model workflow, input validation, checkpoint checks, executed notebook, and documentation were revised with AI coding assistance. The central exercise is carrying the fitted scaler and feature order into saved-model inference while keeping validation and test observations separate.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
