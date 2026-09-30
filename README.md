@@ -1,5 +1,7 @@
 # PyTorch MLP for Binary Tabular Classification
 
+[![Checks](https://github.com/KianaAbrisham/mlp-pytorch-classifier/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/KianaAbrisham/mlp-pytorch-classifier/actions/workflows/checks.yml)
+
 Train a small multilayer perceptron on numeric CSV features, select its checkpoint using
 validation loss, and reload the model with the same preprocessing for inference.
 The included **200-row synthetic dataset** demonstrates the workflow; it is not a real-world benchmark.
@@ -55,9 +57,7 @@ The notebook finds the repository from either its root folder or `notebooks/`.
 The saved outputs come from CPU execution with the included data; see
 [validation](docs/VALIDATION.md) for the checks and limits.
 
-## Development context
-
-The model workflow, input validation, checkpoint checks, executed notebook, and documentation were revised with AI coding assistance. The central exercise is carrying the fitted scaler and feature order into saved-model inference while keeping validation and test observations separate.
+[Development notes](https://github.com/KianaAbrisham/KianaAbrisham/blob/main/docs/DEVELOPMENT.md)
 
 ## License
 
